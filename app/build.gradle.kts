@@ -6,7 +6,6 @@ plugins {
 android {
     namespace = "com.shoppi.app"
     compileSdk = 34
-
     defaultConfig {
         applicationId = "com.shoppi.app"
         minSdk = 21
@@ -33,6 +32,7 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    buildToolsVersion = "34.0.0"
 }
 
 dependencies {
