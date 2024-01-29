@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 
 class HomeFragment : Fragment(){
     override fun onCreateView(
@@ -24,11 +25,15 @@ class HomeFragment : Fragment(){
             transaction.add(R.id.container_main, ProductDetailFragment())
             transaction.commit()
         }*/
+        /*
         button.setOnClickListener {
             val transaction = parentFragmentManager.beginTransaction()
             transaction.replace(R.id.container_main, ProductDetailFragment())
             transaction.addToBackStack(null) // 이전 상태를 백스택에 추가
             transaction.commit()
+        }*/
+        button.setOnClickListener {
+            findNavController().navigate(R.id.action_home_to_product_detail)
         }
 
     }
