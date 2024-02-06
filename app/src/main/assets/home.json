@@ -1,0 +1,40 @@
+{
+  "title": {
+    "text" : "IVY님 이런 상품 어때요?",
+    "icon_url" : "https://github.com/songhm7/shoppi-android/assets/47211293/6ad88796-dfe8-4cba-9471-309d6a998dbd"
+  },
+  "top_banners": [
+    {
+      "background_image_url" : "https://github.com/songhm7/shoppi-android/assets/47211293/8cd1b7b5-4049-44c3-8255-ea72fa5babbb",
+      "badge" : {
+        "label": "기획전",
+        "background_color": "#52514d"
+      },
+      "label" : "따스한 겨울\n준비하기",
+      "product_detail": {
+        "brand_name": "twg. official",
+        "label": "캐시미어 100% 터틀넥 스웨터",
+        "discount_rate": 9,
+        "price": 102000,
+        "thumbnail_image_url": "https://github.com/songhm7/shoppi-android/assets/47211293/518da31e-d5d8-4de1-b01f-8fd3d4c797d7",
+        "product_id": "FW-twg-sweater-1"
+      }
+    },
+    {
+      "background_image_url" : "https://github.com/songhm7/shoppi-android/assets/47211293/92050a8a-8a14-45a8-b7f5-315b75083124",
+      "badge" : {
+        "label": "기획전",
+        "background_color": "#967a6d"
+      },
+      "label" : "나만의\n홈 오피스",
+      "product_detail": {
+        "brand_name": "Desk",
+        "label": "슬림 데스크 800",
+        "discount_rate": 16,
+        "price": 160000,
+        "thumbnail_image_url": "https://github.com/songhm7/shoppi-android/assets/47211293/bddb82b6-5b20-4e6b-954c-d739a1238424",
+        "product_id": "dest-1"
+      }
+    }
+  ]
+}
