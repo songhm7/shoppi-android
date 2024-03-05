@@ -62,6 +62,9 @@
                 android:id="@+id/viewpager_home_banner_indicator"
                 android:layout_width="0dp"
                 android:layout_height="45dp"
+                app:tabBackground="@drawable/selector_viewpager_indicator"
+                app:tabIndicatorHeight="0dp"
+                app:tabGravity="center"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/viewpager_home_banner" />
