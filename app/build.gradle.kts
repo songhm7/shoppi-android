@@ -33,10 +33,14 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    dataBinding{
+        enable = true
+    }
     buildToolsVersion = "34.0.0"
 }
 
 dependencies {
+    implementation("androidx.fragment:fragment-ktx:1.6.2")
     implementation("com.google.code.gson:gson:2.10.1")
     implementation("androidx.viewpager2:viewpager2:1.0.0")
     implementation("androidx.core:core-ktx:1.12.0")

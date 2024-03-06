@@ -1,4 +1,4 @@
-package com.shoppi.app
+package com.shoppi.app.model
 
 import com.google.gson.annotations.SerializedName
 
@@ -6,7 +6,7 @@ data class Banner(
     @SerializedName("background_image_url") val backgroundImageUrl: String,
     val badge: BannerBadge,
     val label: String,
-    @SerializedName("product_detail") val productDetail:ProductDetail
+    @SerializedName("product_detail") val productDetail: ProductDetail
 )
 
 data class BannerBadge(
